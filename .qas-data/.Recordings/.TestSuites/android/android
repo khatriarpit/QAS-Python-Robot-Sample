@@ -1,0 +1,494 @@
+{
+    "steps": [
+        {
+            "indexColumn": "",
+            "command": "Wait For Visible",
+            "element": "accessibility id=email",
+            "input": "",
+            "status": "NotRun",
+            "eArray": [
+                [
+                    "accessibility id=email",
+                    "accessibility id"
+                ]
+            ],
+            "elementKey": "",
+            "elementDesc": ""
+        },
+        {
+            "command": "Type",
+            "element": "accessibility id=email",
+            "eArray": [
+                [
+                    "accessibility id=email",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/email",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.EditText[@content-desc=\"email\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "Bob",
+            "status": "Passed",
+            "elementKey": "email",
+            "elementDesc": "email",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 6102000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Verify Text",
+            "element": "accessibility id=email",
+            "eArray": [
+                [
+                    "accessibility id=email",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/email",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.EditText[@content-desc=\"email\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "Bob",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 957000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Type",
+            "element": "accessibility id=password",
+            "eArray": [
+                [
+                    "accessibility id=password",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/password",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.EditText[@content-desc=\"password\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "Bob",
+            "status": "Passed",
+            "elementKey": "password",
+            "elementDesc": "password",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 1187000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Verify Text",
+            "element": "accessibility id=password",
+            "eArray": [
+                [
+                    "accessibility id=password",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/password",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.EditText[@content-desc=\"password\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "Bob",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 587000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "accessibility id=signIn",
+            "eArray": [
+                [
+                    "accessibility id=signIn",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/email_sign_in_button",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc=\"signIn\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "sign.in",
+            "elementDesc": "sign.in",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 600000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "indexColumn": "",
+            "command": "Wait For Visible",
+            "element": "accessibility id=transacations",
+            "input": "",
+            "status": "NotRun",
+            "eArray": [
+                [
+                    "accessibility id=transacations",
+                    "accessibility id"
+                ]
+            ],
+            "elementKey": "",
+            "elementDesc": ""
+        },
+        {
+            "command": "Click",
+            "element": "accessibility id=transacations",
+            "eArray": [
+                [
+                    "accessibility id=transacations",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/transactions",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc=\"transacations\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "transacations",
+            "elementDesc": "transacations",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 1768000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Type",
+            "element": "accessibility id=enterAmount",
+            "eArray": [
+                [
+                    "accessibility id=enterAmount",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/amount",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.EditText[@content-desc=\"enterAmount\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "1000",
+            "status": "Passed",
+            "elementKey": "enter.amount",
+            "elementDesc": "enter.amount",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 1200000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "indexColumn": "",
+            "command": "Wait For Visible",
+            "element": "accessibility id=credit",
+            "input": "",
+            "status": "NotRun",
+            "eArray": [
+                [
+                    "accessibility id=credit",
+                    "accessibility id"
+                ]
+            ],
+            "elementKey": "",
+            "elementDesc": ""
+        },
+        {
+            "command": "Verify Present",
+            "element": "accessibility id=credit",
+            "eArray": [
+                [
+                    "accessibility id=credit",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/credit",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc=\"credit\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "credit",
+            "elementDesc": "credit",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 560000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "accessibility id=credit",
+            "eArray": [
+                [
+                    "accessibility id=credit",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/credit",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc=\"credit\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "credit",
+            "elementDesc": "credit",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 666000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "accessibility id=Fund Transfer",
+            "eArray": [
+                [
+                    "accessibility id=Fund Transfer",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/fundTransfer",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc=\"Fund Transfer\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": ".fund..transfer",
+            "elementDesc": ".fund..transfer",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 1804000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "id=com.qmetry.bank.bankingapplication:id/selectPayee",
+            "eArray": [
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/selectPayee",
+                    "id"
+                ],
+                [
+                    "xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.view.ViewGroup/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.Spinner",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "com.qmetry.bank.bankingapplication.id.select.payee",
+            "elementDesc": "com.qmetry.bank.bankingapplication.id.select.payee",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 1091000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "id=android:id/text1",
+            "eArray": [
+                [
+                    "id=android:id/text1",
+                    "id"
+                ],
+                [
+                    "xpath=/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[2]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "android.id.text1",
+            "elementDesc": "android.id.text1",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 1682000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Type",
+            "element": "accessibility id=enterAmount",
+            "eArray": [
+                [
+                    "accessibility id=enterAmount",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/transferAmount",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.EditText[@content-desc=\"enterAmount\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "34",
+            "status": "Passed",
+            "elementKey": "enter.amount",
+            "elementDesc": "enter.amount",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 736000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Verify Text",
+            "element": "accessibility id=enterAmount",
+            "eArray": [
+                [
+                    "accessibility id=enterAmount",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/transferAmount",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.EditText[@content-desc=\"enterAmount\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "34",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 605000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "accessibility id=fund transfer",
+            "eArray": [
+                [
+                    "accessibility id=fund transfer",
+                    "accessibility id"
+                ],
+                [
+                    "id=com.qmetry.bank.bankingapplication:id/btnSubmit",
+                    "id"
+                ],
+                [
+                    "xpath=//android.widget.Button[@content-desc=\"fund transfer\"]",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "fund.transfer",
+            "elementDesc": "fund.transfer",
+            "indexColumn": "",
+            "tcId": "5",
+            "tsId": 2,
+            "duration": 651000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        }
+    ],
+    "type": "android",
+    "capabilities": {
+        "capObj": {
+            "perfectoServer": {
+                "host": "",
+                "username": "",
+                "password": "",
+                "https": true
+            },
+            "desiredCapabilities": {
+                "platformName": "Android",
+                "platformVersion": "",
+                "appPackage": "com.qmetry.bank.bankingapplication",
+                "appActivity": "com.qmetry.bank.bankingapplication.HomePageActivity",
+                "deviceName": "emulator-5554",
+                "noReset": true,
+                "automationName": "UiAutomator2",
+                "browserName": "",
+                "fullReset": false,
+                "autoWebview": false,
+                "newCommandTimeout": "3000",
+                "idleTimeout": "3000"
+            },
+            "type": "automaticServer",
+            "host": "localhost",
+            "port": "4723",
+            "path": "/wd/hub"
+        },
+        "type": "android",
+        "mode": "play"
+    },
+    "testDataExample": [],
+    "executionStatus": "NotRun"
+}
