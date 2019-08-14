@@ -1,0 +1,503 @@
+{
+    "steps": [
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://www.gmail.com",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 14697000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Clear",
+            "element": "id=identifierId",
+            "eArray": [
+                [
+                    "id=identifierId",
+                    "id"
+                ],
+                [
+                    "name=identifier",
+                    "name"
+                ],
+                [
+                    "xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/span/div/div/div/div/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#identifierId",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Continue to Gmail'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot email?'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "email.identifierid",
+            "elementDesc": "identifierId email",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 11251000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Type",
+            "element": "id=identifierId",
+            "eArray": [
+                [
+                    "id=identifierId",
+                    "id"
+                ],
+                [
+                    "name=identifier",
+                    "name"
+                ],
+                [
+                    "xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/span/div/div/div/div/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#identifierId",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Continue to Gmail'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot email?'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "demoqas2019@gmail.com",
+            "status": "Passed",
+            "elementKey": "email.identifierid",
+            "elementDesc": "identifierId email",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 666000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "xpath=//div[@id='view_container']/div/div/div[2]/div/div",
+            "eArray": [
+                [
+                    "xpath=//div[@id='view_container']/div/div/div[2]/div/div",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div[2]/div/div/div[2]/div/div",
+                    "xpath:position"
+                ],
+                [
+                    "css=div.WEQkZc",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Continue to Gmail'])[1]/following::div[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::div[4]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "div.div111",
+            "elementDesc": "Text DIV111",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 591000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Verify Value",
+            "element": "id=identifierId",
+            "eArray": [
+                [
+                    "id=identifierId",
+                    "id"
+                ],
+                [
+                    "name=identifier",
+                    "name"
+                ],
+                [
+                    "xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/span/div/div/div/div/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//input",
+                    "xpath:position"
+                ],
+                [
+                    "css=#identifierId",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Continue to Gmail'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::input[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot email?'])[1]/preceding::input[1]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "demoqas2019@gmail.com",
+            "status": "Passed",
+            "elementKey": "email.identifierid",
+            "elementDesc": "identifierId email",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 542000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "xpath=//div[@id='identifierNext']/span/span",
+            "eArray": [
+                [
+                    "xpath=//div[@id='identifierNext']/div[2]",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div[2]/div/div[2]/div/div/div/div[2]",
+                    "xpath:position"
+                ],
+                [
+                    "css=div.ZFr60d.CeoRYc",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Learn more'])[1]/following::div[6]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::div[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create account'])[1]/preceding::div[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//div[@id='identifierNext']/span/span",
+                    "xpath"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "div.div11111",
+            "elementDesc": "Text DIV11111",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 733000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "indexColumn": "",
+            "command": "Wait For Visible",
+            "element": "name=password",
+            "input": "",
+            "status": "NotRun",
+            "eArray": [
+                [
+                    "name=password",
+                    "name"
+                ]
+            ],
+            "elementKey": "",
+            "elementDesc": ""
+        },
+        {
+            "command": "Clear",
+            "element": "name=password",
+            "eArray": [
+                [
+                    "name=password",
+                    "name"
+                ],
+                [
+                    "xpath=//div[@id='password']/div/div/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input[name=\"password\"]",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Too many failed attempts'])[1]/following::input[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='demoqas2019@gmail.com'])[1]/following::input[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::input[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::input[3]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "password.qas2019",
+            "elementDesc": "QAS@2019 password",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 701000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Type",
+            "element": "name=password",
+            "eArray": [
+                [
+                    "name=password",
+                    "name"
+                ],
+                [
+                    "xpath=//div[@id='password']/div/div/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input[name=\"password\"]",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Too many failed attempts'])[1]/following::input[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='demoqas2019@gmail.com'])[1]/following::input[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::input[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::input[3]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "QAS@2019",
+            "status": "Passed",
+            "elementKey": "password.qas2019",
+            "elementDesc": "QAS@2019 password",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 601000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "xpath=//div[@id='view_container']/div/div/div[2]/div",
+            "eArray": [
+                [
+                    "xpath=//div[@id='view_container']/div/div/div[2]/div",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div[2]/div/div/div[2]/div",
+                    "xpath:position"
+                ],
+                [
+                    "css=div.Wxwduf.Us7fWe.JhUD8d",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='demoqas2019@gmail.com'])[1]/following::div[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Welcome'])[1]/following::div[9]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "div.div111",
+            "elementDesc": "Text DIV111",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 581000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Verify Value",
+            "element": "name=password",
+            "eArray": [
+                [
+                    "name=password",
+                    "name"
+                ],
+                [
+                    "xpath=//div[@id='password']/div/div/div/input",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div/input",
+                    "xpath:position"
+                ],
+                [
+                    "css=input[name=\"password\"]",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Too many failed attempts'])[1]/following::input[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='demoqas2019@gmail.com'])[1]/following::input[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::input[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::input[3]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "QAS@2019",
+            "status": "Passed",
+            "elementKey": "password.qas2019",
+            "elementDesc": "QAS@2019 password",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 539000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        },
+        {
+            "command": "Click",
+            "element": "xpath=//div[@id='passwordNext']/span/span",
+            "eArray": [
+                [
+                    "xpath=//div[@id='passwordNext']/span/span",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div/div/span/span",
+                    "xpath:position"
+                ],
+                [
+                    "css=span.RveJvd.snByac",
+                    "css"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Too many failed attempts'])[1]/following::span[10]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='demoqas2019@gmail.com'])[1]/following::span[13]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::span[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='‪Afrikaans‬'])[1]/preceding::span[3]",
+                    "xpath:neighbor"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "span.span1111",
+            "elementDesc": "Text SPAN1111",
+            "indexColumn": "",
+            "tcId": "3",
+            "tsId": 2,
+            "duration": 603000000,
+            "errMessage": "",
+            "isRowExpanded": false
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "https://www.gmail.com",
+        "type": "web",
+        "selectDevice": "",
+        "isRemote": false,
+        "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        },
+        "mode": "play",
+        "tcId": 1
+    },
+    "testDataExample": [],
+    "executionStatus": "NotRun"
+}
