@@ -1,35 +1,97 @@
-# python Behave
+# Automation Testing with Robot Framework
 
-### To Get Started
-	This is sample project with Python Behave directory structure.
 #### Pre-requisites
-
-1.Install python latest version and set environment variable to execute pip and behave.
-
-* All the dependencies use following command.
+1.Python and PIP should be installed
+2.Using PIP install requirements.txt by following command
 ```
 pip install -r requirements.txt
 ```
-it will install all dependencies from requirements.txt and You can add your own dependencies also.
-#### Now just run the test , switched to the Features folder.Use the following commands
-
-* To run a specific scenario :
-	```
-	behave -n "<SCENARIO_NAME>"
-	```
-* To run a feature file :
-	```
-	behave "<FEATURE_FILE_PATH>"
-	```
-* To run multiple feature file :
-	```
-	<!-- behave "<FEATURE_ONE.feature>" "<FEATURE_TWO.feature>" -->
-	```
-* To run all feature file using CI/CD :
-	```
-	behave feature
-	```
 
 
-#### View Results.
-	'QMetry' Menu > Automation Test Report
+#### Writing Features inside Scenario
+    *** Test Cases ***
+    Valid Login
+        Open Browser To Login Page
+        Input Username    demo
+        Input Password    mode
+        Submit Credentials
+        Welcome Page Should Be Open
+        [Teardown]    Close Browser
+
+
+Preconditions
+-------------
+
+A precondition for running the tests is having `Robot Framework`_ and
+SeleniumLibrary_ installed, and they in turn require
+Python_. Robot Framework `installation instructions`__ cover both
+Robot and Python installations, and SeleniumLibrary has its own
+`installation instructions`__.
+
+In practice it is easiest to install Robot Framework and
+SeleniumLibrary along with its dependencies using `pip`_ package
+manager. Once you have pip installed, all you need to do is running
+these commands::
+
+    pip install robotframework
+    pip install robotframework-seleniumlibrary
+    pip install robotframework-appiumlibrary
+
+Running tests
+-------------
+
+The `test cases` are located in the ``tests`` directory. They can be
+executed using the ``robot`` command::
+
+    robot tests
+
+.. note:: If you are using Robot Framework 2.9 or earlier, you need to
+          use the ``pybot`` command instead.
+
+You can also run an individual  file and use various command line
+options supported by Robot Framework::
+
+    robot tests/<platform>/<filename>.robot
+    robot --test <TestCaseName> --loglevel DEBUG tests
+
+You can also run an individual test case from file and command line option  supported by Robot Framework::
+
+    robot -t testCaseName tests/<platform>/<filename>.robot
+    In case testCaseName with whitespace than replace whitespace with '_'(Ex. testCaseName : Amazon Invalid Login,than use testCaseName as Amazon_Invaid_Login)
+
+Run ``robot --help`` for more information about the command line usage
+
+Using different browsers
+------------------------
+
+The browser that is used is controlled by ``${BROWSER}`` variable defined in
+`paltform specific steps`_ resource file. Chrome browser is used by default, but that
+can be easily overridden from the command line::
+
+    robot --variable BROWSER:Firefox tests
+    robot --variable BROWSER:IE tests
+
+
+Consult
+[SeleniumLibrary]( https://github.com/robotframework/SeleniumLibrary) documentation about supported browsers.
+Also, You can find available Keywords in [Keyword Documentation](http://robotframework.org/SeleniumLibrary/SeleniumLibrary.html)
+
+### Generated results
+
+After `running tests` you will get report and log in HTML format. Example
+files are also visible online in case you are not interested in running
+the demo yourself:
+
+- `report.html`
+- `log.html`
+
+### Upload Results to QTM or QTM4J
+For uploading results to QTM or QTM4J, you need to run using below command which will generate xUnit compatible output file and listener `python_listerner.py` will upload that file to respective tool.
+
+    robot --listener python_listener.py --xunit result.xml tests
+
+
+Read more
+------------------------
+
+[Robot Framework](http://robotframework.org), [Python](http://python.org), [pip](http://pip-installer.org)
