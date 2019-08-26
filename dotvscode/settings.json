@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		".git": true,
+		".build": true,
+		".qas-data": true,
+		".donotdelete": true,
+		"**/.DS_Store": true,
+	}
+}
