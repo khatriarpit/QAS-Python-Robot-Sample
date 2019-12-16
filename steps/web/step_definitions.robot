@@ -7,7 +7,7 @@ Documentation     A resource file with reusable keywords and variables.
 Library           SeleniumLibrary
 
 *** Variables ***
-${URL}         https://www/gmail.com
+${URL}         https://qas.qmetry.com/bank/
 ${BROWSER}        Chrome
 ${DELAY}          0
 

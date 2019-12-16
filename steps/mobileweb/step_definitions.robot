@@ -8,7 +8,7 @@ Library          SeleniumLibrary
 Library          util.py
 
 *** Variables ***
-${URL}         https://www/gmail.com
+${URL}         https://qas.qmetry.com/bank/
 ${BROWSER}        Chrome
 ${DELAY}          0
 
