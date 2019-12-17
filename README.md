@@ -4,13 +4,7 @@
 1.Python and PIP should be installed
 2.Using PIP install requirements.txt by following command
 ```
-Python must be above 3.0 version.you can use pip with `alias name` like 3 etc based on your python installed.
-
-pip(Alias Name) install -r requirements.txt
-
-Compatible chromedriver path should be set in your system and in application.properties file if it is present in your project folder for command line execution.
-
-# use automationName='XCUITest' if needed in IOS device during command line execution
+pip install -r requirements.txt
 ```
 
 
@@ -39,9 +33,9 @@ SeleniumLibrary along with its dependencies using `pip`_ package
 manager. Once you have pip installed, all you need to do is running
 these commands::
 
-    pip(Alias Name) install robotframework
-    pip(Alias Name) install robotframework-seleniumlibrary
-    pip(Alias Name) install robotframework-appiumlibrary
+    pip install robotframework
+    pip install robotframework-seleniumlibrary
+    pip install robotframework-appiumlibrary
 
 Running tests
 -------------

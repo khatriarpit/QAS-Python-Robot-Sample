@@ -495,5 +495,6 @@
         "tcId": 1
     },
     "testDataExample": [],
+    "isTCValid": true,
     "executionStatus": "NotRun"
 }
