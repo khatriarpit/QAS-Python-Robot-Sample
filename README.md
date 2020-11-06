@@ -60,6 +60,9 @@ options supported by Robot Framework::
     robot tests/<platform>/<filename>.robot
     robot --test <TestCaseName> --loglevel DEBUG tests
 
+Tag wise execution
+	robot -i tagName -i differentTagName tests
+
 You can also run an individual test case from file and command line option  supported by Robot Framework::
 
     robot -t testCaseName tests/<platform>/<filename>.robot
