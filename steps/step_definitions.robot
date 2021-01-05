@@ -64,6 +64,10 @@ Waits until element is visible
     [Arguments]    ${locator}
     Wait Until Element Is Visible  ${locator}
 
+Waits until element is present
+    [Arguments]    ${locator}
+    Wait Until Page Contains Element  ${locator}
+
 Select Frame
     [Arguments]                        ${locator}
     Select Frame                       ${locator}
